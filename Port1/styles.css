@@ -1,0 +1,115 @@
+body {
+    background-color: #0d1b2a; /* Dark blue shade extracted from the image */
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.hero-section {
+    background: url('background.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-section .scroll-button {
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.section-space {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.skill-bar {
+    margin-bottom: 1rem;
+}
+
+.skill-bar h6 {
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    height: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 0.75rem;
+}
+
+.progress-bar {
+    background-color: rgb(0, 35, 72);
+    line-height: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+footer .social-icons a {
+    margin-right: 1rem;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}

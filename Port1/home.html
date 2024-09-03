@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-4" data-aos="fade-up">DESIGN + BRANDING</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">I am a full-stack web developer with expertise in HTML (100%), CSS (85%), JavaScript (70%), and Bootstrap (55%).</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <button class="scroll-button" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-white text-dark">
+        <div class="container" data-aos="fade-right">
+            <div class="row align-items-center section-space">
+                <div class="col-md-6 order-md-2">
+                    <img src="https://placehold.co/600x400" class="img-fluid rounded" alt="Image">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-uppercase font-weight-bold text-muted">About Me</h6>
+                    <h2 class="font-weight-bold">Full-Stack Web Developer</h2>
+                    <p class="lead">I am a passionate web developer with extensive experience in building dynamic and responsive websites. My skills include:</p>
+                    <div class="skill-bar">
+                        <h6>HTML</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;">100%</div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h6>CSS</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h6>JavaScript</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h6>Bootstrap</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 55%;">55%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white text-dark text-center">
+        <div class="container" data-aos="fade-up">
+            <h6 class="text-uppercase font-weight-bold text-muted">Innovation by Design</h6>
+            <h2 class="font-weight-bold">Set Up a 15 Min Meeting</h2>
+            <p class="lead">Set up a call with one of our creative directors to discover how you can leverage design to enhance the launch of your products.</p>
+            <a href="#" class="btn btn-dark btn-lg">Schedule a Call</a>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white text-dark">
+        <div class="container" data-aos="fade-left">
+            <div class="row align-items-center section-space">
+                <div class="col-md-6">
+                    <img src="https://placehold.co/600x400" class="img-fluid rounded" alt="Image">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-uppercase font-weight-bold text-muted">Project 1</h6>
+                    <h2 class="font-weight-bold">Project Title 1</h2>
+                    <p class="lead">Description of the first project, highlighting the key features and technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white text-dark">
+        <div class="container" data-aos="fade-right">
+            <div class="row align-items-center section-space">
+                <div class="col-md-6 order-md-2">
+                    <img src="https://placehold.co/600x400" class="img-fluid rounded" alt="Image">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-uppercase font-weight-bold text-muted">Project 2</h6>
+                    <h2 class="font-weight-bold">Project Title 2</h2>
+                    <p class="lead">Description of the second project, highlighting the key features and technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white text-dark">
+        <div class="container" data-aos="fade-left">
+            <div class="row align-items-center section-space">
+                <div class="col-md-6">
+                    <img src="https://placehold.co/600x400" class="img-fluid rounded" alt="Image">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-uppercase font-weight-bold text-muted">Project 3</h6>
+                    <h2 class="font-weight-bold">Project Title 3</h2>
+                    <p class="lead">Description of the third project, highlighting the key features and technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="py-5 bg-white text-dark text-center">
+        <div class="container" data-aos="fade-up">
+            <h6 class="text-uppercase font-weight-bold text-muted">Contact</h6>
+            <h2 class="font-weight-bold">Get In Touch</h2>
+            <p class="lead">Feel free to reach out for collaborations or just a friendly chat.</p>
+            <p>Email: your-email@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mr-3">LinkedIn</a>
+                <a href="#" class="text-white mr-3">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
